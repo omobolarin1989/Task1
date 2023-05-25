@@ -1,0 +1,73 @@
+.img1{
+    display: flex;
+   justify-content: center;
+}
+
+.fsec .img1 img{
+    width: 50px;
+    height: 50px;
+}
+
+hr{
+    width: 85%;
+    
+}
+
+body{
+    
+    font-family: 'Merienda', cursive;
+}
+.par1, .par2, .par3{
+    text-align: center;
+    
+}
+
+.fsec .par1 h1{
+    margin: 0;
+}
+
+.par1 .pp1{
+    margin: 0 0 20px 0;
+
+}
+
+.but1, .but2{
+    color: white;
+    background-color: rgb(0, 73, 207);
+    width: 8%;
+    height: 35px;
+    border-radius: 50px;
+    border-color: rgb(0, 73, 207);
+    
+}
+
+.ssec .par2 ol{
+    padding-bottom:15px;
+}
+
+
+.ssec .par2 h3{
+   margin:25px 0 0 0;
+
+}
+
+.ssec .par2 ol{
+    margin: 0;
+}
+
+.par3 .but1{
+    margin-right: 1%;
+}
+
+.tsec .par3 .but{
+    margin-top: 30px;
+}
+
+.tsec .par3 .par31 {
+    margin: 0;
+
+}
+
+.tsec .par3 .par32{
+    margin: 0;
+}

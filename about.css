@@ -1,0 +1,79 @@
+
+
+body section{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    
+}
+
+
+body section .sec1{
+    padding: 30px 0;
+}
+
+.sec1 h1{
+    margin: 0;
+}
+
+.sec1 p{
+    margin: 0;
+}
+
+body section .sec1 img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+section .sec2{
+    padding: 30px 0;
+}
+
+
+section .sec2 h2{
+    margin: 0 0 5px 0;
+}
+
+section .sec2 ol{
+    margin: 0;
+}
+
+hr{
+    width: 85%;
+}
+
+.sec3{
+    margin-top: 30px;
+}
+
+.sec3 .sec31{
+    margin-bottom: 0;
+}
+
+.sec3 .sec32{
+    margin-top: 0;
+}
+
+.sec3.but{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sec3 .but .but1{
+    margin-right: 1%;
+    border: 2px solid blue;
+}
+    
+
+
+.sec3 .but1, .but2{
+    color: white;
+    background-color: rgb(0, 73, 207);
+    width: 8%;
+    height: 35px;
+    border-radius: 50px;
+    border-color: rgb(0, 73, 207);
+}
