@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+
+    
+        
+    
+    <form action="#">
+
+        <h2>Contact Form</h2>
+
+       <div> 
+            <label for="name">Name:</label>
+            <input type="text" name="" id="name" class="lab1" placeholder="Enter Your Phone Name" required>
+        </div>
+
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="" id="username" class="lab1" placeholder="Enter Your Phone Username" required>
+        </div>
+
+        
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="" id="password" class="lab1" placeholder="Enter Your Phone password" required>
+        </div>
+
+        <div>
+            <label for="Password">Re-type Password:</label>
+            <input type="password" name="" id="Password" class="lab1" placeholder="Re-Enter Your Phone Password" required>
+        </div>
+
+        <div class="gen">
+            
+            <label for="gender" class="lebtech">Gender:</label>     
+
+                <div class="rad">
+                    <input type="radio" name="gender" id="male" required>Male
+                    <input type="radio" name="gender" id="female">Female
+                </div>
+        </div>
+
+        <div class="gen" required>
+            <label for="tech-role" class="lebtech">Techie role:</label>
+            <div class="rad" >
+                <input type="checkbox" name="" id="html" required >HTML
+        
+                <input type="checkbox" name="" id="css" required>CSS
+           
+                <input type="checkbox" name="" id="javascript" required>Javascript
+            </div>
+           
+        </div>
+
+        <div >
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" name="" id="phone-number" class="lab1" placeholder="Enter Your Phone number" required>
+        </div>  
+
+        <div >
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" class="lab1" placeholder="Enter Your Phone Email Address" required>
+        </div>
+
+        <div >
+            <label for="college">College:</label>
+            <select name="" id="college" class="lab1" required>
+                <option value=""disable selected hidden>Choose a College</option>
+                <option value="laspotech" >Laspotech</option>
+                <option value="ibadan-poly">Ibadan Poly</option>
+                <option value="fedpoly-ede">Fedpoly Ede</option>
+                <option value="fedpoly-nekede">Fedpoly Nekede</option>
+                <option value="yabatech">Yabatech</option>
+            </select>
+        </div>
+
+        <div class="but">
+            <label for=""></label>
+            <button class="lab1">Submit</button>
+            <p>The submit button will take you back to the home page</p>
+        </div>        
+
+    </form>
+
+</body>
+</html>
